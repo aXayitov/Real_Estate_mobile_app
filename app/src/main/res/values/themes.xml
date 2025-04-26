@@ -6,4 +6,9 @@
     </style>
 
     <style name="Theme.Real_Estate" parent="Base.Theme.Real_Estate" />
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
 </resources>
