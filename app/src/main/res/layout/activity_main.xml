@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightGrey"
-    tools:context=".MainActivity" >
+    tools:context=".Activity.MainActivity" >
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -234,11 +235,12 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/viewList"
                 android:layout_width="match_parent"
+                android:paddingBottom="100dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="16dp"
                 android:paddingHorizontal="16dp" />
         </LinearLayout>
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:layout_width="match_parent"
