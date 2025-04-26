@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Real_Estate</string>
+    <string name="perfect_choice_nfor_your_future">Perfect Choice\nFor Your Future</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_nadipiscing_elit_sed_do_eiusmod_tempor">Lorem ipsum dolor sit amet, consectetur\nadipiscing elit, sed do eiusmod tempor.</string>
 </resources>
